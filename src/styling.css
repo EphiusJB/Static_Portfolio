@@ -18,7 +18,7 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #161b22;
+    background-color: #b8b8b8;
 }
 .logo{
     width: 5%;
