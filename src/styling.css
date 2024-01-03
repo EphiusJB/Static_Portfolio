@@ -1,7 +1,7 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: #b8b8b8;
+    background-color: whitesmoke;
     color: azure;
     font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     /* 4 */
@@ -11,6 +11,8 @@ body{
 a{
     text-decoration: none;
 }
+/** old code
+
 .nav_bar{
     width: 100%;
     height: 40px;
@@ -49,4 +51,48 @@ a{
 }
 .contact_link{
     color: azure;
+}
+
+**/
+
+.sideNav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 250px;
+    height: 680px;
+    background-color: rgb(190, 192, 192);
+}
+
+.selfIntro{
+    text-align: center;
+}
+
+.profile{
+    width: 10em;
+    height: 10em;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.social_links{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.link{
+    width: 25px;
+    color: white;
+}
+
+.options{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
 }
