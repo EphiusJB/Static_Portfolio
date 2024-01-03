@@ -58,7 +58,7 @@ a{
 .sideNav{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 250px;
     height: 680px;
     background-color: rgb(190, 192, 192);
@@ -95,4 +95,17 @@ a{
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
+    margin-top: 50px;
+}
+.linx{
+    color: white;
+}
+.hire{
+    width: 50%;
+    height: 35px;
+    margin: auto;
+    border-radius: 25px;
+    border: solid black;
+    background-color: transparent;
+    font-weight: bold;
 }
