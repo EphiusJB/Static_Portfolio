@@ -171,15 +171,17 @@ h3{
     display: flex;
     justify-content: space-evenly;
     width: 60%;
+    margin-top: 2em;
 }
 .btns{
     width: 48%;
-    height: 35px;
     margin: auto;
-    border-radius: 25px;
+    border-radius: 45px;
     border: solid black;
     background-color: transparent;
-    font-weight: bold;
+    padding: 0.5em;
+    font-size: large;
+    font-weight: 400;
 }
 .btns:hover{
     background-color: black;
@@ -188,7 +190,7 @@ h3{
     transition: 0.3s;
 }
 .jumbo{
-    width: 320px;
-    height: 320px;
+    width: 300px;
+    height: 300px;
     box-shadow: 0px 1px 5px black;
 }
