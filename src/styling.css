@@ -98,10 +98,13 @@ a{
 }
 
 .link{
-    width: 25px;
-    fill: white;
+    width: 20px;
+    filter: invert(93%) sepia(100%) saturate(0%) hue-rotate(312deg) brightness(107%) contrast(107%);
 }
-
+.link:hover{
+    filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(21deg) brightness(97%) contrast(103%);
+    transition: 0.3s;
+}
 .options{
     height: 30%;
     display: flex;
@@ -137,6 +140,7 @@ a{
 main{
     color: black;
     width: 80%;
+    overflow-y: scroll;
 }
 
 .hero{
@@ -149,9 +153,10 @@ main{
     width: 55%;
 }
 .in-intro{
+    color: #334455;
+    font-family: "Poppins", Sans-serif;
     font-size: 50px;
-    font-weight: 1200;
-    color: rgb(51, 51, 63);
+    font-weight: 800;
     padding: 0;
     margin: 0;
 }
@@ -163,8 +168,9 @@ h3{
 
 }
 .in-introduction{
-    font-size: 15px;
-    font-weight: 200;
+    font-size: 16px;
+    font-weight: 300;
+    color: grey;
 
 }
 .buttonz{
@@ -193,4 +199,19 @@ h3{
     width: 300px;
     height: 300px;
     box-shadow: 0px 1px 5px black;
+}
+/*The horizontal rule*/
+hr{
+    border: solid 1px lightgray;
+    margin-top: 7em;
+}
+
+/*The skills Area*/
+
+.skills-section{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
