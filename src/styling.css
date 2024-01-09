@@ -69,7 +69,7 @@ a{
     justify-content: space-between;
     width: 300px;
     height: 100%;
-    background-color: rgb(190, 192, 192);
+    background-color: rgb(137, 138, 138);
 }
 
 .selfIntro{
@@ -130,8 +130,8 @@ a{
     font-weight: bold;
 }
 .hire:hover{
-    border: solid white;
-    background-color: white;
+    background-color: black;
+    color: white;
     cursor: pointer;
     transition: 0.5s;
 }
