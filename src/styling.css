@@ -215,3 +215,21 @@ hr{
     flex-direction: column;
     justify-content: space-evenly;
 }
+
+.skillBox{
+    width: 30%;
+    float: left;
+    margin: 1em;
+}
+
+.skillName{
+    color: #334455;
+    font-family: "Poppins", Sans-serif;
+    font-size: large;
+    font-weight: 800;
+}
+
+.skillDescription{
+    font-size: 12px;
+    color: grey;
+}
