@@ -222,6 +222,10 @@ hr{
     margin: 1em;
 }
 
+.skillIcon{
+    width: 45px;
+}
+
 .skillName{
     color: #334455;
     font-family: "Poppins", Sans-serif;
